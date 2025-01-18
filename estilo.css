@@ -14,9 +14,13 @@ p {
     font-size: 18px;
     text-align: center;
 }
+
 button {
     font-family: sans-serif;
-    color: #000000;
+    color: #000000; /* Cor da letra */
     font-size: 18px;
-    text-align:center;
-    
+    text-align: center; /* Centraliza o texto dentro do botão */
+    display: block; /* Faz o botão ser exibido como bloco */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+}
